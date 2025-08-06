@@ -91,5 +91,9 @@ python amul_watchdog.py
 
 > Just approve the UPI on your phone — lightning-fast.
 
-![UPI Notification](assets/img1.1.jpeg)| ![Google Pay window](assets/img1.jpeg)
+<p>
+  <img src="assets/img1.1.jpeg" alt="UPI Notification" width="300"/>
+  &nbsp;&nbsp;
+  <img src="assets/img1.jpeg" alt="Google Pay window" width="300"/>
+</p>
 
