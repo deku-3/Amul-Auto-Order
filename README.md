@@ -1,14 +1,25 @@
 # 🥛💪 Amul Protein Auto-Order Bot
 
-Beat the protein rush and auto-order products — place your order in seconds before anyone else can even click “Add to Cart.” 
+Tired of missing **Amul’s** hot drops? This script refreshes and buys **instantly** when stock appears.
+
 ---
 
-## Features
 
-- **Instant auto-ordering:** Refreshes & orders as soon as stock appears.
-- **Login session saver:** No repeated OTP hassle.
-- **UPI payment push:** Approve the order from your phone.
-- **Adjustable refresh interval:** Perfect your buy timing.
+## 🚀 What This Bot Solves
+
+- ✅ **Instant Auto-Ordering**  
+  Detects stock and places the order — before most people even finish clicking "Add to Cart".
+
+- ✅ **Login Session Saver**  
+  Skips the OTP dance. Your session stays active and ready.
+
+- ✅ **UPI Push-to-Approve**  
+  Just tap "Approve" on your phone — no need to enter anything manually.
+
+- ✅ **Adjustable Refresh Timing**  
+  Want ultra-fast sniping or slower polling? You're in control.
+
+> ⚡ Just run the script. As soon as stock drops, you'll get a UPI payment notification — tap to approve, and it's yours.
 
 ---
 
@@ -21,6 +32,7 @@ Bring this repository to your machine:
 ```bash
 git clone https://github.com/deku-3/Amul-Auto-Order.git  
 cd Amul-Auto-Order
+pip install -r requirements.txt
 ```
 
 ## 🔐 1) Save Your Browser Session
@@ -74,3 +86,10 @@ python amul_watchdog.py
 
 - The script will now stay live, checking availability on your chosen product page.
 - When the product drops, you’ll get a notification on your phone to enter your UPI PIN and complete the order!
+
+## 📱 What It Looks Like
+
+> Just approve the UPI on your phone — lightning-fast.
+
+![UPI Notification](assets/img1.1.jpeg)| ![Google Pay window](assets/img1.jpeg)
+
