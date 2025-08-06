@@ -13,13 +13,13 @@ Tired of missing **Amul’s** hot drops? This script refreshes and buys **instan
 - ✅ **Login Session Saver**  
   Skips the OTP dance. Your session stays active and ready.
 
-- ✅ **UPI Push-to-Approve**  
-  Just tap "Approve" on your phone — no need to enter anything manually.
-
+- ✅ **UPI Push-to-Pay**  
+  Just enter your UPI PIN on your phone — no need to fill anything manually on the website.
+  
 - ✅ **Adjustable Refresh Timing**  
   Want ultra-fast sniping or slower polling? You're in control.
 
-> ⚡ Just run the script. As soon as stock drops, you'll get a UPI payment notification — tap to approve, and it's yours.
+> ⚡ Just run the script. As soon as stock drops, you'll get a UPI payment notification — tap to enter UPI pin, and it's yours.
 
 ---
 
