@@ -1,8 +1,6 @@
 # 🥛💪 Amul Protein Auto-Order Bot
 
-Beat the protein rush and automatically order from Amul before anyone else can!  
-This bot monitors stock, orders the product for you, and notifies you via UPI request.
-
+Beat the protein rush and auto-order products — place your order in seconds before anyone else can even click “Add to Cart.” 
 ---
 
 ## Features
@@ -16,19 +14,21 @@ This bot monitors stock, orders the product for you, and notifies you via UPI re
 
 ## Quickstart
 
-### 0️⃣ Clone this repository
+## 🛠️ 0) Clone the Code Locally
 
-git clone https://github.com/deku-3/Amul-Auto-Order.git
+Bring this repository to your machine:
+
+```bash
+git clone https://github.com/deku-3/Amul-Auto-Order.git  
 cd Amul-Auto-Order
+```
 
 ## 🔐 1) Save Your Browser Session
 
 Run the session saver to store your login state:
-
-
-
+```bash  
 python save_sessions.py
-
+```
 - A dummy browser window will open.
 - Enter your **pincode**, **phone number**, and the OTP you receive.
 - If prompted, fill in your name/email, then **press ENTER** in the terminal.
@@ -68,9 +68,9 @@ Make sure:
 - Your **address is added**
 
 Then run:
-
+```bash  
 python amul_watchdog.py
-
+```
 
 - The script will now stay live, checking availability on your chosen product page.
 - When the product drops, you’ll get a notification on your phone to enter your UPI PIN and complete the order!
