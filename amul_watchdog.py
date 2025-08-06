@@ -21,7 +21,7 @@ def check_stock_loop():
 
                 print(f"[{time.ctime()}] Stock Status: disabled = {disabled}")
 
-                if disabled == "true":
+                if disabled != "true":
                     print("✅ Product is now in stock. Starting order...")
                     break
                 else:
