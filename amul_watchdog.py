@@ -8,7 +8,7 @@ ADD_TO_CART_SELECTOR = "a.add-to-cart"
 
 def check_stock_loop():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         context = browser.new_context(storage_state="auth.json")
         page = context.new_page()
 

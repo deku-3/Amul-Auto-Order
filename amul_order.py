@@ -3,7 +3,7 @@ import time
 from config import PRODUCT_URL,UPI_ID,UPI_AFTER_AT,UPI_SERVICE
 def order_with_saved_session():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         try:
             context = browser.new_context(storage_state="auth.json")
         except Exception as e:
