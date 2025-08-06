@@ -100,7 +100,7 @@ def order_with_saved_session():
             print("❌ Failed to click PAY button:", e)
 
         # Final Step: Wait and close
-        time.sleep(60)
+        time.sleep(300)
         print("✅ Script complete. Closing browser.")
         browser.close()
 
