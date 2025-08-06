@@ -2,9 +2,9 @@
 import time
 from playwright.sync_api import sync_playwright
 from amul_order import order_with_saved_session  # 👈 Make sure this file exists
-from config import PRODUCT_URL
+from config import PRODUCT_URL,CHECK_INTERVAL
 ADD_TO_CART_SELECTOR = "a.add-to-cart"
-CHECK_INTERVAL = 60  # seconds
+
 
 def check_stock_loop():
     with sync_playwright() as p:
